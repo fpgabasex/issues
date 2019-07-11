@@ -32,7 +32,6 @@ architecture Behavioral of second_order_with_SRL is
 
 begin
 
---  registering inputs and output is needed for synthesis to show valid timing results even in case (1)
   process(clock)
   begin
       if rising_edge(clock) then
